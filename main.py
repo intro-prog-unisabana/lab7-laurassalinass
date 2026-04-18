@@ -37,10 +37,10 @@ def main():
                 print("Login added.")
 
         elif option == "3":
-            
+            break
         
         else:
-            print("Invalid option selected!")
+        
 
 if _name_ == "_main_":
     main()
