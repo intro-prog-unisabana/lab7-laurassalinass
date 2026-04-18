@@ -5,7 +5,6 @@ def main():
     encrypt_passwords_in_file(filename)
 
     while True:
-        # 2. Mostrar el menú de opciones
         print("Options: (1) Change Password, (2) Add Password, (3) Quit: ", end="")
         option = input()
 
@@ -42,5 +41,5 @@ def main():
         else:
             print("Invalid option selected!")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
