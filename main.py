@@ -40,7 +40,7 @@ def main():
             break
         
         else:
-        
+            print("Invalid option selected!")
 
 if _name_ == "_main_":
     main()
